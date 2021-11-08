@@ -7,7 +7,7 @@ class Player
     @lives = 3
   end
 
-  def update_life
+  def update_lives
     @lives -= 1
   end
 end

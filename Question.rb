@@ -9,10 +9,10 @@ class Question
   end
 
   def print_question
-    "What does #{num1} plus #{num2} equal?"
+    "What does #{@num1} plus #{@num2} equal?"
   end
 
-  def right_answer?
+  def right_answer?(user_response)
     user_response == @answer
   end
 end
